@@ -1,0 +1,5 @@
+If print "Obstacle detected on Right"
+ Robot.turn(90);
+If print "Obstacle detected on Left"
+ Robot.turn(-90)
+If pr
