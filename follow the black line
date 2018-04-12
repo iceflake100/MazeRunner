@@ -1,0 +1,27 @@
+  if(IO.input(2)==True and IO.input(3)==True): #both white move forward    
+        IO.output(4,True) #1A+
+        IO.output(14,False) #1B-
+
+        IO.output(17,True) #2A+
+        IO.output(18,False) #2B-
+        
+ elif(IO.input(2)==False and IO.input(3)==True): #turn right 
+        IO.output(4,True) #1A+
+        IO.output(14,True) #1B-
+
+        IO.output(17,True) #2A+
+        IO.output(18,False) #2B-
+
+elif(IO.input(2)==True and IO.input(3)==False): #turn left
+        IO.output(4,True) #1A+
+        IO.output(14,False) #1B-
+
+        IO.output(17,True) #2A+
+        IO.output(18,True) #2B-
+
+else:  #stay still
+        IO.output(4,True) #1A+
+        IO.output(14,True) #1B-
+
+        IO.output(17,True) #2A+
+        IO.output(18,True) #2B-
